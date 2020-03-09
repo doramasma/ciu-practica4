@@ -1,5 +1,5 @@
 # Ciu práctica 4
-Solar System + camera
+Solar System & camera
 
 ## Autor 
 **Doramas Báez Bernal** <br/>
