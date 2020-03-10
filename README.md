@@ -18,9 +18,8 @@ Correo: doramas.baez101@alu.ulpgc.es
 * [Dependencias](#dependencias) 
 * [Desarrollo](#desarrollo)
     * [Información general](#informaciónGeneral)
-    * [capturar puntos](#capturar)
-    * [Conversion 3D](#conversion)
-    * [Rotación](#rotación)
+    * [Distintas vistas](#vistas)
+    * [Texturas](#texturas)
 * [Referencias](#referencias)
 
 ## Introducción
@@ -38,26 +37,25 @@ Para poder poner un background estático en la aplicacion, dicho background tien
 ### Información general <a id="informaciónGeneral"></a>
 
 Cuando iniciamos la aplicación, aparecerá la vista principal, en la que se nos explicarán los controles. En este caso, disponemos de los siguientes controles:
- - W :
- - S :
- - A :
- - D :
- - Q :
- - E :
- - R :
- - Enter :
- - Mouse:
+ - W: vertical Y -
+ - S: Vertical Y +
+ - A: Vertical X -
+ - D: Vertical X +
+ - Q: Vertical Z +
+ - E: Vertical Z -
+ - R: cambiar entre las distintas vistas
+ - Enter: Cambiar entre modo pausa y modo resume 
+ - Mouse: Rotar el ángulo de la camara (Cuando estamos en modo tercera persona)
  
 
+### Distintas vistas <a id="vistas"></a>
+Podemos cambiar entre las 3 vistas que disponemos, estas son:
+ - Intrucciones: es la primera vista que aparece, podremos salir o cambiar a ella, utilizando la tecla enter
+ - Vista general: Es una vista general, con una camara alejada para poder tener una visión de todo el sistema solar.
+ - Vista en tercera persona: Esta es una vista donde la camará se situará detras de la nave (esta es un cubo). Además, se nos permitirá realizar una rotacion reducida de unos 180 grados.
 
-### Capturar puntos <a id="capturar"></a>
-
-### Conversion 3D <a id="conversion"></a>
-
-
-### Rotación
-
-
+### Textura <a id="texturas"></a>
+Para este proyecto, se ha intentado realizar una replica del sistema solar. Para ello, se han intentado mantener las proporciones que se reflejan en la actualidad. Además, se han tomado las texturas que se asemejan a la realidad. Podremos encontrar dicho enlace en las referencias.
 
 ## Referencias
 
